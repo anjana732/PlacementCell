@@ -4,4 +4,20 @@
     height: 40%;
     margin: auto;
     padding: auto;
+    border-radius: 10px;
+}
+label,input,button{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 10px;
+}
+.container h3{
+    text-align: center;
+    padding: 7px;
 }
