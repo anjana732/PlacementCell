@@ -22,3 +22,8 @@ form{
     text-align: center;
     padding: 7px;
 }
+.bg{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
