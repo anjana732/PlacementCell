@@ -3,8 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+html, body{
+    margin: auto;
+    padding: auto;
+   /* display: flex;*/
+    justify-content: center;
+    align-items: center;
+
+}
 .container{
-    background-color: blanchedalmond;
+    background-color: rgb(243, 230, 211, 0.6);
     width: 40%;
     height: 40%;
     margin: auto;
@@ -12,12 +20,24 @@
     border-radius: 10px;
 }
 label,input,button{
-    margin: 5px;
-    padding: 5px;
+    margin: 8px;
+    padding: 8px;
     border-radius: 5px;
     font-family:Arial, Helvetica, sans-serif;
     border: none;
-    border-bottom: 1px solid black;
+    
+}
+input{
+    outline: none;
+    border-bottom: 1.8px solid black;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+   
+}
+input:hover{
+    /* border-color: #4CAF50;*/
+    border-color: rgb(253, 107, 253);
+  /*  border-bottom: 2px solid rgb(243, 84, 195);*/
+
 }
 form{
     display: flex;
@@ -34,7 +54,9 @@ form{
     position: absolute;
     z-index: -1;
 }
-.login{
+#login{
     background-color: black;
-    color: antiquewhite;
+    color: rgb(201, 224, 206);
+    padding: 8px;
+    margin: 20px 10px 10px 10px;
 }
