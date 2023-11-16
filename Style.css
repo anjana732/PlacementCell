@@ -1,0 +1,92 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+}
+
+header img {
+    float: right;
+    height: 100px;
+}
+
+.hero {
+    background-image: url('hero.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    text-align: center;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-top: 100px;
+}
+
+.hero p {
+    font-size: 24px;
+}
+
+.about-us,
+.recruiters,
+.students,
+.contact-us {
+    padding: 20px;
+}
+
+.about-us h2,
+.recruiters h2,
+.students h2,
+.contact-us h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.about-us p,
+.recruiters p,
+.students p,
+.contact-us p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.recruiters img {
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+}
+
+.contact-us address {
+    font-style: italic;
+}
+
+footer {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+}
