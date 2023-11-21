@@ -167,3 +167,13 @@ footer p {
     padding: 20px;
     text-align: center;
 }
+.contact-us{
+    background-color: aliceblue;
+}
+.contact-us h2{
+    font-size: 40px;
+    text-align: center;
+}
+.contact{
+    display: flex;
+}
