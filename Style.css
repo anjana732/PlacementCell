@@ -27,25 +27,30 @@ nav a {
 
 header img {
     float: right;
-    height: 100px;
+    height: 250px;
+    border-radius: 50%;
 }
 
 .hero {
-    background-image: url('hero.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 500px;
-    text-align: center;
-    color: #fff;
+    height: 200px;
+   /* text-align: center;*/
+    color: #252323;
+  /*  margin-top: -70px;*/
+    margin-left: 50px;
 }
 
 .hero h1 {
     font-size: 48px;
-    margin-top: 100px;
+    margin-top: 30px;
 }
 
 .hero p {
-    font-size: 24px;
+    font-size: 30px;
+    float: right;
+    margin-right: 200px;
+    margin-top: -10px;
+    font-family: cursive;
+    font-style: italic;
 }
 
 .about-us,
@@ -90,3 +95,43 @@ footer {
 footer p {
     font-size: 14px;
 }
+.carousel {
+    position: relative;
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+  }
+  
+  .carousel-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .prev,
+  .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px;
+    background-color: #ccc;
+    cursor: pointer;
+  }
+  
+  .prev {
+    left: 0;
+  }
+  
+  .next {
+    right: 0;
+  }
+  
