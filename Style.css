@@ -52,30 +52,6 @@ header img {
     font-family: cursive;
     font-style: italic;
 }
-
-.about-us,
-.recruiters,
-.students,
-.contact-us {
-    padding: 20px;
-}
-
-.about-us h2,
-.recruiters h2,
-.students h2,
-.contact-us h2 {
-    font-size: 32px;
-    margin-bottom: 20px;
-}
-
-.about-us p,
-.recruiters p,
-.students p,
-.contact-us p {
-    font-size: 16px;
-    line-height: 1.5;
-}
-
 .recruiters img {
     display: block;
     margin: 0 auto;
@@ -123,8 +99,9 @@ footer p {
     top: 50%;
     transform: translateY(-50%);
     padding: 10px;
-    background-color: #ccc;
+    background-color: white;
     cursor: pointer;
+    border: none;
   }
   
   .prev {
@@ -134,4 +111,40 @@ footer p {
   .next {
     right: 0;
   }
-  
+  .about-us{
+    background-color: rgb(251, 242, 252);
+    height: 80%;
+  }
+  .about-us h2{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.about-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 50px;
+    
+}
+.left{
+    width: 50%;
+    margin: auto;
+    padding: auto;
+   
+}
+.right{
+    width: 50%;
+    text-align: justify;
+}
+.left img{
+    width: 90%;
+    border-radius: 10px;
+
+    margin-top: 10px;
+   /* padding: 10px;*/
+    
+}
