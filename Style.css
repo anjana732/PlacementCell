@@ -148,3 +148,22 @@ footer p {
    /* padding: 10px;*/
     
 }
+.recruiters{
+    height: 80vh;
+    background-color: rgb(243, 233, 200);
+    margin-top: -20px;
+}
+.recruiter-img{
+    display: flex;
+}
+.recruiter-img img{
+    width: 60px;
+    margin: 20px;
+    border-radius: 5px;
+}
+.recruiters-container h2{
+    font-size: 40px;
+    margin-top: 10px;
+    padding: 20px;
+    text-align: center;
+}
