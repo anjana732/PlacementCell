@@ -169,11 +169,29 @@ footer p {
 }
 .contact-us{
     background-color: aliceblue;
+    margin-bottom: -20px;
 }
 .contact-us h2{
     font-size: 40px;
     text-align: center;
+    margin-top: 20px;
+    padding: 35px;
+}
+.contact-us p{
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 40px;
 }
 .contact{
     display: flex;
+}
+address{
+    width: 50%;
+    margin: auto;
+    padding: auto;
+}
+.add{ 
+    font-size: 20px;
+    margin-left: 40px;
+    padding: 20px;
 }
